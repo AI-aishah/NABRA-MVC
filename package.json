@@ -1,0 +1,10 @@
+{
+  "name": "nabra-medathon-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NABRA bilingual MVC prototype for MEDATHON Track 3",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "npm run build && node checks/flow.cjs"
+  }
+}
